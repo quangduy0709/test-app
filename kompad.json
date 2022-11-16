@@ -2,6 +2,7 @@
   "version": "2.0",
   "url": "https://github.com/hudy9x/kompad-homepage/releases/download/v0.14.2/kompad_0.14.2_x64_en-US.msi",
   "bin": "/PFiles/kompad/kompad.exe",
+  "hash": ["4f02bedb7e6b685075688430ad9e22e2448d0d76b9cf100fa2bd37bcd94378db"],
   "pre_install": [
     "Copy-Item -Path \"$dir\\PFiles\\kompad\\kompad.exe\" -Destination \"$dir\""
   ],
